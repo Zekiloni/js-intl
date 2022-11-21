@@ -2,7 +2,7 @@ function translate(key, values) {
 	let message = locales[language][phrase];
 
 	if (!message) {
-        throw new Error(`Phrase ${key} not found.`);
+        	throw new Error(`Phrase ${key} not found.`);
 	}
 
 	const words = message.split(' ');
