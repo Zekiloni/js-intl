@@ -1,4 +1,4 @@
-function translate(key, values) {
+function translate(phrase, values) {
 	let message = locales[language][phrase];
 
 	if (!message) {
